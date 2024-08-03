@@ -7,7 +7,7 @@
 
 > 다양한 음식과 그에 해당하는 조리법이 궁금한 사람들을 위한 커뮤니티 👉 [[링크]](http://ormi-donkey.com/)
 
-![img.png](readme/mainImg.png)
+## 메인 페이지 이미지 추
 
 ## 📖Description
 
@@ -23,8 +23,8 @@
 ### 1. 💾**개발 환경**
 ![img.png](readme/DevelopmentEnvironment.png)
 
-- Java JDK 21, JavaScript
-- 프론트엔드 : React, HTML, tailwind
+- Java JDK 17, JavaScript
+- 프론트엔드 : HTML, CSS
 - 백엔드 : Spring Boot
 - 데이터베이스 : MySQL
 - ORM : JPA
@@ -34,16 +34,7 @@
 ### 2. 🤔**기능 정의서**
 
 - 초안
-
-![img.png](readme/mindmap.png)
-
 - 완료
-
-![img.png](readme/FeatureSpecification.png)
-
-### 3. 🔎**개발 일정**
-
-![img.png](readme/DevelopmentSchedule.png)
 
 ## ✨UI(화면) 설계서 
 
@@ -184,30 +175,16 @@
 
 ## 🎞시연 영상
 
-https://github.com/lth01/ormi-community/assets/139758405/a0ee498f-a7e4-4640-a62e-661d693c177f
 
-https://github.com/lth01/ormi-community/assets/139758405/8b932928-b806-47aa-8b2b-f31235d78359
-
-https://github.com/lth01/ormi-community/assets/139758405/9ab64b24-33f5-48f2-9f5f-c7e4e7e796d2
-
-https://github.com/lth01/ormi-community/assets/139758405/2dad5efc-d509-4098-9f3b-79637befee37
-
-https://github.com/lth01/ormi-community/assets/139758405/f846baef-432b-4e98-9525-312e34f93f10
-
-https://github.com/lth01/ormi-community/assets/139758405/b959897c-04e2-4969-bff0-3e675c7735d3
 
 
 ## 🛠Coding Convention
 
-### Java Convention
-
-[자바 컨벤션](https://github.com/lth01/ormi-community/wiki/01-Java-Coding-Convention#java-coding-convention)
-
-### Other Convention
-
-[기타 컨벤션](https://github.com/lth01/ormi-community/wiki/02-Other-Convention)
+[코딩 컨벤션](https://www.notion.so/oreumi/b127ced1b2e746f38382d8f0526adc75)
 
 ## 👨‍💻Participation Member
-- 이태희
-- 김요한
-- 김경록
+- 오한얼
+- 백의헌
+- 박성환
+- 유석호
+- 이재
