@@ -7,7 +7,7 @@
 
 > 다양한 음식과 그에 해당하는 조리법이 궁금한 사람들을 위한 커뮤니티 👉 [[링크]](http://ormi-donkey.com/)
 
-## 메인 페이지 이미지 추
+## 메인 페이지 이미지 추가
 
 ## 📖Description
 
@@ -21,7 +21,7 @@
 
 
 ### 1. 💾**개발 환경**
-![img.png](readme/DevelopmentEnvironment.png)
+![img.png]()
 
 - Java JDK 17, JavaScript
 - 프론트엔드 : HTML, CSS
@@ -82,31 +82,43 @@
 ### ⚙️ Back-End
 ```
 📁 src
+├── 📁 admin
+│   ├── 📃 application.java
+│   └── 📃 dto.java
+│   └── 📃 presentation.java
+├── 📁 auth
+│   ├── 📃 controller.java
+│   ├── 📃 domain.java
+│   ├── 📃 dto.java
+│   ├── 📃 repository.java
+│   ├── 📃 service.java
+├── 📁 common
+│   ├── 📃 entity.java
+│   └── 📃 handle.java
 ├── 📁 config
-│   ├── 📃 SecurityConfig.java
-│   └── 📃 SwaggerConfig.java
-├── 📁 controller
-│   ├── 📃 AdminController.java
-│   ├── 📃 BoardController.java
-│   ├── 📃 CommentController.java
-│   ├── 📃 CompanyController.java
-│   ├── 📃 DocumentController.java
-│   ├── 📃 IndustryController.java
-│   ├── 📃 LikeItController.java
-│   ├── 📃 MemberController.java
-│   ├── 📃 PasswordQuestionController.java
-│   ├── 📃 ReportController.java
-│   └── 📃 ViewershipController.java
-├── 📁 domain
+│   └── 📃 jpa.java
+│   └── 📃 web.java
+├── 📁 home/controller
+│   ├── 📃 HomeController.java
+├── 📁 notice
+│   ├── 📃 application.java
+│   ├── 📃 domain.java
+│   ├── 📃 dto/request.java
+│   ├── 📃 infrastructure.java
+│   ├── 📃 presentaion.java
+├── 📁 post
+│   ├── 📁 controller
+|   |   ├── 📃 PostController.java
 │   ├── 📁 dto
-│   └── 📁 entity
-├── 📁 repository
-├── 📁 security
-│   ├── 📃 MemberDetailsService.java
-│   ├── 📁 exception
-│   ├── 📁 filter
-│   └── 📁 handler
-└── 📁 service
+|   |   ├── 📁 request
+|   |   │   └── 📃 PostRequest.java
+|   |   └── 📁 request
+|   |        └── 📃 PostSaveResponse.java
+│   ├── 📁 entity
+│   ├── 📁 repository
+│   ├── 📁 service
+
+
 ```
 
 ## 🏭System Structure
