@@ -165,8 +165,7 @@
 
 
 ## 🔐ERD Structure
-![img.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/f9326d6c-03f6-4f90-b451-d07febfd9b61/Untitled.png))
-
+![erd-diagram](https://github.com/user-attachments/assets/34be3e11-e162-4bd6-af22-bedc990665ca)
 ## 🎈API 명세서
 
 ### 🧑‍🍳 글 목록 조회 / 댓글
