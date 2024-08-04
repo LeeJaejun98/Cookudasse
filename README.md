@@ -34,10 +34,9 @@
 - 배포환경 : AWS EC2, RDS
 - 협업도구 : GitHub, Notion, ERD Cloud, Figma
 
-### 2. 🤔**기능 정의서**
+### 2. **기능 명세서**
+- [기능명세서 링크 바로가기](https://www.notion.so/oreumi/2743c6d7907248dd91a9a308c0290899)
 
-- 초안
-- 완료
 
 ## ✨UI(화면) 설계서 
 
