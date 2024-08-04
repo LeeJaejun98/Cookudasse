@@ -11,20 +11,23 @@
 
 ## 📖Description
 
-- 누구나 쉽게 접근할 수 있는 사이트
-- 자유롭게 본인만의 레시피를 공유할 수 있는 사이트
-  
-최근 집밥을 해먹는 집밥러들이 많아지고, 한식의 세계화가 이루어지는 시대에 한 사이트에서 다양한 레시피를 찾아보기 힘듭니다.
+### 주제
 
-각종 집밥 백선생님들이 모여 본인의 레시피를 올리고, 그 레시피에 대한 이야기를 나누며, 서로의 밥상에 다양성을 추가해 줄 수 있는 사이트가 되면 좋겠습니다. 
+- 다양한 음식 레시피를 공유하고 탐색할 수 있는 스프링부트 웹 어플리케이션
+
+### 기획 의도
+
+- 다양한 전통 음식과 요리법을 소개하여 사용자들이 보다 많은 요리에 대해 배울 수 있도록 합니다.
+- 사용자들이 자신의 레시피를 공유하고 다른 사람들과 소통할 수 있는 커뮤니티 형성을 목표로 합니다.
+- 특정 종류(카테고리: 면, 밥, 디저트 등)를 기준으로 레시피를 쉽게 검색하고 필터링할 수 있도록 합니다.
 
 
 
 ### 1. 💾**개발 환경**
-![개발환경](https://github.com/user-attachments/assets/22793121-acaa-4635-b582-dc62e3b22247)
+![시스템 구조](https://github.com/user-attachments/assets/a00d2f53-250b-46f3-a141-7157af39a3a8)
 
 - Java JDK 17, JavaScript
-- 프론트엔드 : HTML, CSS
+- 프론트엔드 : HTML, CSS, JS
 - 백엔드 : Spring Boot
 - 데이터베이스 : MySQL
 - ORM : JPA
@@ -161,8 +164,7 @@
 ```
 
 ## 🏭System Structure
-![img.png](readme/SystemStructure.png)
-
+![시스템 구조](https://github.com/user-attachments/assets/c89728f8-868a-450e-873b-17fd510c5ba8)
 
 ## 🔐ERD Structure
 ![erd-diagram](https://github.com/user-attachments/assets/34be3e11-e162-4bd6-af22-bedc990665ca)
