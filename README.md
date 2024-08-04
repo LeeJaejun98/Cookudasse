@@ -43,41 +43,53 @@
 |                                                                                                                       |                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Main Page (Member)                                                                                                    | Main Page (Guest)                                                                                                 |
-| <img src="https://github.com/lth01/ormi-community/assets/139758405/2eb7e023-322b-42f2-a676-60a5603d1766" width="370"> | <img src="https://github.com/lth01/ormi-community/assets/139758405/c1397cc9-51d8-46fe-8133-6467f75a85f0" width="370"> |
-| Login Page                                                                                                            | SignUp Page                                                                                                       |
-| ![요리조리 회원가입](https://github.com/user-attachments/assets/ad287ff9-46e5-4bab-a328-a0636b113f4d)    |
-| SignUp complete Page                                                                                                  | Modify-info Page                                                                                                  |
-| <img src="https://github.com/lth01/ormi-community/assets/139758405/962ca99e-8d30-4508-b3ec-edca7d906694" width="370"> | <img src="https://github.com/lth01/ormi-community/assets/139758405/2d3fb2b9-c49c-4f65-a0fd-ae020204cb01" width="370">    |
-| Find Password Page                                                                                                    | Change Password Page                                                                                              |
-| <img src="https://github.com/lth01/ormi-community/assets/139758405/179ce85e-6933-4474-b8a9-951149c3292c" width="370"> | <img src="https://github.com/lth01/ormi-community/assets/139758405/96eb0e20-a95c-4ce2-b990-7abd2f56e05c" width="370">    |
-| Board Write Page                                                                                                      | Admin Page                                                                                                        |
-| <img src="https://github.com/lth01/ormi-community/assets/139758405/18ac552c-7592-4eaf-993e-8e43cc11f01e" width="370"> | <img src="https://github.com/lth01/ormi-community/assets/139758405/4e27ac65-c996-43fe-9ecf-b38799f0f5b7" width="370">    |
+| ![요리조리 멤버 홈페이지](https://github.com/user-attachments/assets/e9974255-f138-41f6-adc1-54690ae1e452) |  
+| Main Page (Admin)                                                                                                     | SignUp Page                                                                                                       |
+| ![요리조리 관리자 홈페이지](https://github.com/user-attachments/assets/6d927945-6215-4964-88c6-ebf32c734bab) | ![요리조리 회원가입](https://github.com/user-attachments/assets/ad287ff9-46e5-4bab-a328-a0636b113f4d)
+| SignIn Page                                                                                                           | Modify-info Page                                                                                                  |
+| ![요리조리 로그인](https://github.com/user-attachments/assets/3d0895cb-baba-4556-8215-e49ac44fff5b)          | ![요리조리 마이페이지 정보수정](https://github.com/user-attachments/assets/26049d18-c90f-4524-9a1a-1689aeef3b57) |
+| Find ID / Password Page                                                                                               | Change Password Page                                                                                              |
+| ![요리조리 아이디비번 찾기](https://github.com/user-attachments/assets/e0d001e7-9666-4e45-80a2-fc3a97fe882e) | <img src="https://github.com/lth01/ormi-community/assets/139758405/96eb0e20-a95c-4ce2-b990-7abd2f56e05c" width="370">    |
+| Board Write Page                                                                                                      | MyPage Info Select                                                                                             |
+| ![요리조리 게시글 생성 화면](https://github.com/user-attachments/assets/870cc776-8e68-4d64-af6f-921d5b35924a) | ![요리조리 마이페이지 정보 선택](https://github.com/user-attachments/assets/6849807d-486a-4dd9-9446-229def53e687)    |
+
 ## 📂Project Structure
 
 ### 🌐 Front-End
 ```
 📁 src
-├── 📁 assets
-├── 📁 components
-│   ├── 📁 Board
-│   ├── 📁 Comment
-│   ├── 📁 Document
-│   ├── 📁 Icon
-│   ├── 📁 Industry
-│   ├── 📁 Layout
-│   ├── 📁 Menu
-│   ├── 📁 Password
-│   └── 📁 ui
-├── 📁 lib
-├── 📁 routes
-│   ├── 📁 Board
-│   ├── 📁 Document
-│   ├── 📁 Main
-│   ├── 📁 Password
-│   ├── 📁 Signup
-│   ├── 📁 User
-│   └── 📁 admin
-└── 📁 utils
+└── 📁 main/resources
+     ├── 📁 static
+     |     ├── 📁 css
+     |     |    ├── 📃 admin.css
+     |     |    ├── 📃 home.css
+     |     |    ├── 📃 login.css
+     |     |    ├── 📃 logo.png
+     |     |    ├── 📃 noticeStyle.css
+     |     |    ├── 📃 searchIcon.css
+     |     |    └── 📃 style.css
+     |     ├── 📁 img
+     |     |    └── 📃 mouse.png
+     |     └── 📁 js
+     |          ├── 📃 admin.js
+     |          ├── 📃 home.js
+     |          ├── 📃 login.js
+     |          ├── 📃 noticeScript.js
+     |          └── 📃 script.js
+     └── 📁 templates
+           ├── 📁 comment
+           ├── 📁 search
+           ├── 📃 admin.html
+           ├── 📃 editNotice.html
+           ├── 📃 editPost.html
+           ├── 📃 find.html
+           ├── 📃 home.html
+           ├── 📃 login.html
+           ├── 📃 noticeDetail.html
+           ├── 📃 postDetail.html
+           ├── 📃 writeNotice.html
+           └── 📃 writePost.html
+
 ```
 ### ⚙️ Back-End
 ```
