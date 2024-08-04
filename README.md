@@ -83,29 +83,50 @@
 ```
 📁 src
 ├── 📁 admin
-│   ├── 📃 application.java
-│   └── 📃 dto.java
-│   └── 📃 presentation.java
+│   ├── 📁 application
+|   |   └── 📃 AdminService.java
+│   └── 📁 dto
+|   |    ├── 📃 AdminRequest.java
+|   |    └── 📃 AdminResponse.java
+│   └── 📁 presentation
+|   |    └── 📃 AdminController.java
 ├── 📁 auth
-│   ├── 📃 controller.java
-│   ├── 📃 domain.java
-│   ├── 📃 dto.java
-│   ├── 📃 repository.java
-│   ├── 📃 service.java
+│   ├── 📁 controller
+|   |   └── 📃 AuthController.java
+│   ├── 📁 domain
+|   |    ├── 📃 Role.java
+|   |    └── 📃 User.java
+│   ├── 📁 dto
+|   |    ├── 📃 FindPasswordRequest.java
+|   |    ├── 📃 LoginRequest.java
+|   |    └── 📃 SignupRequest.java
+│   ├── 📁 repository
+|   |   └── 📃 UserRepository.java
+│   ├── 📁 service
+|   |   └── 📃 UserService.java
 ├── 📁 common
-│   ├── 📃 entity.java
-│   └── 📃 handle.java
+│   ├── 📁 entity
+|   |   └── 📃 BaseEntity.java
+│   └── 📁 handle
+|   |   └── 📃 AuthInterceptor.java
 ├── 📁 config
-│   └── 📃 jpa.java
-│   └── 📃 web.java
+│   └── 📁 jpa
+|   |   └── 📃 JpaConfig.java
+│   └── 📁 web
+|   |   └── 📃 WebConfig.java
 ├── 📁 home/controller
-│   ├── 📃 HomeController.java
+│   └── 📃 HomeController.java
 ├── 📁 notice
-│   ├── 📃 application.java
-│   ├── 📃 domain.java
-│   ├── 📃 dto/request.java
-│   ├── 📃 infrastructure.java
-│   ├── 📃 presentaion.java
+│   ├── 📁 application
+|   |   └── 📃 NoticeService.java
+│   ├── 📁 domain
+|   |   └── 📃 Notice.java
+│   ├── 📁 dto/request
+|   |   └── 📃 NoticeRequest
+│   ├── 📁 infrastructure
+|   |   └── 📃 NoticeRepository.java
+│   └── 📁 presentaion
+|   |   └── 📃 NoticeController.java
 ├── 📁 post
 │   ├── 📁 controller
 |   |   ├── 📃 PostController.java
@@ -115,8 +136,14 @@
 |   |   └── 📁 request
 |   |        └── 📃 PostSaveResponse.java
 │   ├── 📁 entity
+|   |    ├── 📃 FoodCategory.java
+|   |    ├── 📃 Post.java
+|   |    └── 📃 PostDetail.java
 │   ├── 📁 repository
-│   ├── 📁 service
+|   |    ├── 📃 PostDetailRepository.java
+|   |    └── 📃 PostRepository.java
+│   └── 📁 service
+         └── 📃 PostService.java
 
 
 ```
