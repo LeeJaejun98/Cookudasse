@@ -171,8 +171,8 @@
 ## 🎈API 명세서
 
 ### 🧑‍🍳 글 목록 조회 / 댓글
-| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION | ⬇️ REQUEST BODY | ⬆️ RESPONSE SUCCESS | ⬇️ Query Param|
-| --- | --- | --- | --- | --- | --- | --- |
+| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION |
+| --- | --- | --- | --- | 
 | getAllPost | GET | /api/posts | 게시판 글 목록 조회 |  |  |  |
 | getAllCommentsById | GET | /api/posts/{post_id} | 게시물의 전체 댓글 불러오기 |  |  |  |
 | createComment | POST | /api/posts/{post_id}/comment | 해당 게시글에 댓글 생성 |  |  |  |
@@ -181,8 +181,8 @@
 
 ### 🧑‍🍳 정보 조회 / 수정
 
-| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION | ⬇️ REQUEST BODY | ⬆️ RESPONSE SUCCESS | ⬇️ Query Param |
-| --- | --- | --- | --- | --- | --- | --- |
+| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION |
+| --- | --- | --- | --- | 
 | confirmPassword | POST | /api/users/{pasword} | 비밀번호 확인 |  |  |  |
 | changePassword | PUT | /api/users/{pasword} | 비밀번호 변경 |  |  |  |
 | getUserInfo | GET | /api/users | 사용자 정보 조회 |  |  |  |
@@ -192,15 +192,15 @@
 
 ### 🧑‍🍳 관리자
 
-| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION | ⬇️ REQUEST BODY | ⬆️ RESPONSE SUCCESS | ⬇️ Query Param |
-| --- | --- | --- | --- | --- | --- | --- |
+| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION |
+| --- | --- | --- | --- | 
 | getUserId | GET | /api/users/{id} | 특정 회원의 아이디 조회 |  |  |  |
 | modifyAuthority | PUT | /api/auth/{auth} | 특정 회원의 권한 수정 |  |  |  |
 
 ### 🧑‍🍳 공지사항
 
-| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION | ⬇️ REQUEST BODY | ⬆️ RESPONSE SUCCESS | ⬇️ Query Param |
-| --- | --- | --- | --- | --- | --- | --- |
+| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION |
+| --- | --- | --- | --- | 
 | createNotice | POST | /api/notice | 공지사항 쓰기 |  |  |  |
 | getNotice | GET | /api/notice/{notice_id} | 공지사항 조회 |  |  |  |
 | modifyNotice | PUT | /api/notice/{notice_id} | 공지사항 수정 |  |  |  |
@@ -209,8 +209,8 @@
 
 ### 🧑‍🍳 게시글 조회/ 작성/ 수정/ 삭제
 
-| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION | ⬇️ REQUEST BODY | ⬆️ RESPONSE SUCCESS | ⬇️ Query Param |
-| --- | --- | --- | --- | --- | --- | --- |
+| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION |
+| --- | --- | --- | --- | 
 | getPost | GET | /api/post/{postId} | 게시글 조회 |  |  | postId: 게시글 번호 |
 | writePost | POST  | /api/post | 게시글 작성 |  |  |  |
 | modifyPost | POST  | /api/post/{postId} | 게시글 수정 |  |  |  |
@@ -218,8 +218,8 @@
 
 ### 🧑‍🍳 로그인 / 회원가입
 
-| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION | ⬇️ REQUEST BODY | ⬆️ RESPONSE SUCCESS | ⬇️ Query Param |
-| --- | --- | --- | --- | --- | --- | --- |
+| 🏷 NAME | ⚙ METHOD | 📎 URL | 📖 DESCRIPTION |
+| --- | --- | --- | --- | 
 | login | POST  | /api/users/login | 사용자 로그인 | { "id": string, "password": string } |  |  |
 | signup | POST  | /api/users/signup | 회원가입 |  |  |  |
 | findId | GET | /api/users/find-id | 아이디 찾기 |  |  |  |
