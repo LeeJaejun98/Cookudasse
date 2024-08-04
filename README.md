@@ -89,7 +89,7 @@
 |   |    ├── 📃 AdminRequest.java
 |   |    └── 📃 AdminResponse.java
 │   └── 📁 presentation
-|   |    └── 📃 AdminController.java
+|        └── 📃 AdminController.java
 ├── 📁 auth
 │   ├── 📁 controller
 |   |   └── 📃 AuthController.java
@@ -102,18 +102,18 @@
 |   |    └── 📃 SignupRequest.java
 │   ├── 📁 repository
 |   |   └── 📃 UserRepository.java
-│   ├── 📁 service
-|   |   └── 📃 UserService.java
+│   └── 📁 service
+|       └── 📃 UserService.java
 ├── 📁 common
 │   ├── 📁 entity
 |   |   └── 📃 BaseEntity.java
 │   └── 📁 handle
-|   |   └── 📃 AuthInterceptor.java
+|       └── 📃 AuthInterceptor.java
 ├── 📁 config
 │   └── 📁 jpa
 |   |   └── 📃 JpaConfig.java
 │   └── 📁 web
-|   |   └── 📃 WebConfig.java
+|       └── 📃 WebConfig.java
 ├── 📁 home/controller
 │   └── 📃 HomeController.java
 ├── 📁 notice
@@ -126,23 +126,23 @@
 │   ├── 📁 infrastructure
 |   |   └── 📃 NoticeRepository.java
 │   └── 📁 presentaion
-|   |   └── 📃 NoticeController.java
-├── 📁 post
-│   ├── 📁 controller
-|   |   ├── 📃 PostController.java
-│   ├── 📁 dto
-|   |   ├── 📁 request
-|   |   │   └── 📃 PostRequest.java
-|   |   └── 📁 request
-|   |        └── 📃 PostSaveResponse.java
-│   ├── 📁 entity
-|   |    ├── 📃 FoodCategory.java
-|   |    ├── 📃 Post.java
-|   |    └── 📃 PostDetail.java
-│   ├── 📁 repository
-|   |    ├── 📃 PostDetailRepository.java
-|   |    └── 📃 PostRepository.java
-│   └── 📁 service
+|       └── 📃 NoticeController.java
+└── 📁 post
+    ├── 📁 controller
+    |   ├── 📃 PostController.java
+    ├── 📁 dto
+    |   ├── 📁 request
+    |   │   └── 📃 PostRequest.java
+    |   └── 📁 request
+    |        └── 📃 PostSaveResponse.java
+    ├── 📁 entity
+    |    ├── 📃 FoodCategory.java
+    |    ├── 📃 Post.java
+    |    └── 📃 PostDetail.java
+    ├── 📁 repository
+    |    ├── 📃 PostDetailRepository.java
+    |    └── 📃 PostRepository.java
+    └── 📁 service
          └── 📃 PostService.java
 
 
