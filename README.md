@@ -1,6 +1,6 @@
 # ESTSOFT 2nd Project
 ---
-#  Cookudasse Project 
+# Cookudasse Project 
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4169E1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=AmazonAWS&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 
@@ -21,7 +21,7 @@
 
 
 ### 1. 💾**개발 환경**
-![img.png]()
+![개발환경](https://github.com/user-attachments/assets/22793121-acaa-4635-b582-dc62e3b22247)
 
 - Java JDK 17, JavaScript
 - 프론트엔드 : HTML, CSS
@@ -45,7 +45,7 @@
 | Main Page (Member)                                                                                                    | Main Page (Guest)                                                                                                 |
 | <img src="https://github.com/lth01/ormi-community/assets/139758405/2eb7e023-322b-42f2-a676-60a5603d1766" width="370"> | <img src="https://github.com/lth01/ormi-community/assets/139758405/c1397cc9-51d8-46fe-8133-6467f75a85f0" width="370"> |
 | Login Page                                                                                                            | SignUp Page                                                                                                       |
-| <img src="https://github.com/lth01/ormi-community/assets/139758405/91d139f6-fa1e-4a8e-af42-1d3eed0fe794" width="370"> | <img src="https://github.com/lth01/ormi-community/assets/139758405/457792b5-48d8-424c-92fb-bd79caeba71e" width="370">    |
+| ![요리조리 회원가입](https://github.com/user-attachments/assets/ad287ff9-46e5-4bab-a328-a0636b113f4d)    |
 | SignUp complete Page                                                                                                  | Modify-info Page                                                                                                  |
 | <img src="https://github.com/lth01/ormi-community/assets/139758405/962ca99e-8d30-4508-b3ec-edca7d906694" width="370"> | <img src="https://github.com/lth01/ormi-community/assets/139758405/2d3fb2b9-c49c-4f65-a0fd-ae020204cb01" width="370">    |
 | Find Password Page                                                                                                    | Change Password Page                                                                                              |
@@ -226,4 +226,5 @@
 - 백의헌
 - 박성환
 - 유석호
-- 이재
+- 이재준
+
